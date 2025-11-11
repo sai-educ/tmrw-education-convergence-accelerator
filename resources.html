@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Resources — tmrw Education: Convergence Accelerator</title>
+  <meta name="description" content="Curated resources for AI in K–12: research, toolkits, prompt literacy guides, ethics frameworks, and classroom playbooks." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css" />
+  <link rel="icon" href="data:,">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand"><span class="brand-mark">tmrw</span> Education</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span>
+      </button>
+      <nav id="site-nav" class="site-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a class="active" href="resources.html">Resources</a></li>
+          <li><a href="join.html">Join</a></li>
+          <li><a href="partners.html">Partners</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container narrow">
+        <h1>Resources</h1>
+        <p class="lead">Distilled and evolving. Curated by the community for practical classroom use and scholarly rigor.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="resource-toolbar">
+          <input id="resourceSearch" class="input" type="search" placeholder="Search resources…" aria-label="Search resources">
+          <select id="resourceFilter" class="select" aria-label="Filter resources by type">
+            <option value="all">All types</option>
+            <option value="research">Research</option>
+            <option value="toolkit">Toolkit</option>
+            <option value="ethics">Ethics</option>
+            <option value="case">Case Study</option>
+            <option value="guide">Guide</option>
+          </select>
+        </div>
+
+        <div id="resourceGrid" class="grid cards-3">
+          <!-- Example items (you can replace or expand) -->
+          <article class="card resource" data-type="research" data-title="RPPs for AI in Classrooms">
+            <h3>RPPs for AI in Classrooms</h3>
+            <p>Research–practice partnership methods for testing AI tools in authentic K–12 settings.</p>
+            <a class="link" href="#" aria-disabled="true">Read (coming soon)</a>
+          </article>
+
+          <article class="card resource" data-type="toolkit" data-title="Prompt Literacy for Teachers">
+            <h3>Prompt Literacy for Teachers</h3>
+            <p>Activities and templates to help educators scaffold AI-assisted inquiry and feedback.</p>
+            <a class="link" href="#" aria-disabled="true">Download (coming soon)</a>
+          </article>
+
+          <article class="card resource" data-type="ethics" data-title="Responsible AI Classroom Playbook">
+            <h3>Responsible AI Classroom Playbook</h3>
+            <p>Guidelines to calibrate safety, transparency, and inclusion in student AI use.</p>
+            <a class="link" href="#" aria-disabled="true">View (coming soon)</a>
+          </article>
+
+          <article class="card resource" data-type="case" data-title="Assessment Co-Pilots">
+            <h3>Assessment Co-Pilots</h3>
+            <p>Case study of teacher-AI collaboration for feedback, rubrics, and student reflection.</p>
+            <a class="link" href="#" aria-disabled="true">Case (coming soon)</a>
+          </article>
+
+          <article class="card resource" data-type="guide" data-title="District Readiness Checklist">
+            <h3>District Readiness Checklist</h3>
+            <p>A pragmatic pathway to adopt AI tools with privacy, procurement, and PD considerations.</p>
+            <a class="link" href="#" aria-disabled="true">Open (coming soon)</a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> tmrw Education — Convergence Accelerator</p>
+      <nav aria-label="Footer">
+        <a href="privacy.html" aria-disabled="true" tabindex="-1">Privacy (coming soon)</a>
+        <span class="dot">•</span>
+        <a href="terms.html" aria-disabled="true" tabindex="-1">Terms (coming soon)</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="assets/main.js"></script>
+</body>
+</html>

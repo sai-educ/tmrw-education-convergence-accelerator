@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact — tmrw Education: Convergence Accelerator</title>
+  <meta name="description" content="Contact tmrw Education's Convergence Accelerator to explore collaboration, pilots, and partnerships in AI for K–12." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css" />
+  <link rel="icon" href="data:,">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand"><span class="brand-mark">tmrw</span> Education</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span>
+      </button>
+      <nav id="site-nav" class="site-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="join.html">Join</a></li>
+          <li><a href="partners.html">Partners</a></li>
+          <li><a class="active" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container narrow">
+        <h1>Contact</h1>
+        <p class="lead">Let’s explore pilots, research collaboration, or community events.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container narrow">
+        <form class="form" id="contactForm" data-netlify="true" name="contact" netlify>
+          <input type="hidden" name="form-name" value="contact">
+          <div class="form-row">
+            <label for="name">Full name</label>
+            <input id="name" name="name" type="text" class="input" required />
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" class="input" required />
+          </div>
+          <div class="form-row">
+            <label for="org">Organization</label>
+            <input id="org" name="org" type="text" class="input" />
+          </div>
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" class="textarea" rows="6" required></textarea>
+          </div>
+          <button class="btn btn-primary" type="submit">Send</button>
+          <p id="formStatus" class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> tmrw Education — Convergence Accelerator</p>
+      <nav aria-label="Footer">
+        <a href="privacy.html" aria-disabled="true" tabindex="-1">Privacy (coming soon)</a>
+        <span class="dot">•</span>
+        <a href="terms.html" aria-disabled="true" tabindex="-1">Terms (coming soon)</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="assets/main.js"></script>
+</body>
+</html>
